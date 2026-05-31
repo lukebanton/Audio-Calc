@@ -12,8 +12,8 @@ XCODE_ICON = os.path.join(
 )
 
 # Outer dark padding to remove, then zoom factor (Icon Composer scale-up)
-OUTER_MARGIN = 0.15
-ZOOM = 1.38
+OUTER_MARGIN = 0.12
+ZOOM = 1.55
 
 
 def generate_icons() -> None:
@@ -31,7 +31,7 @@ def generate_icons() -> None:
     final = zoomed.crop((left, top, left + iw, top + ih))
 
     outputs = [
-        (180, "apple-touch-icon-180.png"),
+        (180, "icon-homescreen.png"),
         (192, "icon-192.png"),
         (512, "icon-512.png"),
         (1024, "icon-1024.png"),
