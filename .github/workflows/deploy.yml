@@ -38,6 +38,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Regenerate icons from source artwork
+        run: python3 scripts/generate-icons.py
+
       - name: Build
         run: npm run build
 
