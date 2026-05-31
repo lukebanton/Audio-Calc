@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "python3 scripts/generate-icons.py && vite build",
+    "preview": "vite preview",
+    "icons": "python3 scripts/generate-icons.py"
   },
   "dependencies": {
     "lucide-react": "^0.511.0",
