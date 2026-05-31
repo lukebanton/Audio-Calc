@@ -6,6 +6,7 @@
     {
       "layers" : [
         {
+          "hidden" : true,
           "image-name" : "Apple-Style iPhone App Icon.png",
           "name" : "Apple-Style iPhone App Icon",
           "position" : {
@@ -15,6 +16,22 @@
               -1.1368683772161603e-13
             ]
           }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
+        {
+          "image-name" : "icon.png",
+          "name" : "icon"
         }
       ],
       "shadow" : {

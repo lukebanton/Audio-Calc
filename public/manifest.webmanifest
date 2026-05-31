@@ -1,9 +1,9 @@
 {
-  "id": "https://lukebanton.github.io/Audio-Calc/?app=3",
+  "id": "https://lukebanton.github.io/Audio-Calc/?app=4",
   "name": "Audio Calc",
   "short_name": "Audio Calc",
   "description": "Audio engineering calculator — distance, latency, and frames.",
-  "start_url": "./?app=3",
+  "start_url": "./?app=4",
   "display": "standalone",
   "background_color": "#F2F2F7",
   "theme_color": "#F2F2F7",
